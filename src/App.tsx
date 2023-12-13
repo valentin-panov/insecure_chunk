@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "./store";
 import Users from "./components/Pages/Users/Users";
 
-export const BASE_URL = "secure_chunk/";
+export const BASE_URL = "insecure_chunk/";
 
 // const Users = lazy(() => import("./components/Pages/Users/Users"));
 
